@@ -1,0 +1,103 @@
+body{
+    background-color: #f3e3cd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Début Header et Nav*/
+.main-header{
+    border: 0.1rem solid black;
+    padding: 1rem 1rem;
+}
+
+.main-header__title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: blue;
+}
+
+.main-header__links, .menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.menu__item{
+    margin: 1rem 1rem;
+    font-size: 1.6rem;
+    color: brown;
+}
+
+.socials{
+    display: flex;
+}
+
+.socials__item{ /*Permet de mettre une marge entre les icones*/
+    margin-left: 1rem;
+}
+
+.socials__icon{ /*Permet de modifier la taille des icones*/
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+}
+/*Fin de Header et Nav*/
+
+.container-main{
+    display: flex;
+    width: 100%;
+}
+
+.left-container{
+    width: 70%;
+    margin: 2rem 1rem;
+}
+
+.right-container{
+    width: 30%;
+    margin: 2rem 1rem;
+}
+
+.experience__title, .training__title, .skill__title, .driver-license__title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.experience{
+    display: list-item;
+    margin: 2rem 2rem;
+}
+
+.experience__item{
+    margin: 1rem auto;
+}
+
+.expericence__subtitle, .training__date{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.experience__entitled, .training-date__text{
+    font-style: italic;
+    text-indent: 12%;
+    margin-top: 0.5rem;
+}
+
+.experience__text{
+    font-size: 1.4rem;
+    list-style-type: disc;
+    margin-left: 12rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem auto;
+}
+
+.skill__item{
+    list-style-type: disc;
+    padding-left: 6rem;
+}
+
+.training__date{
+    text-align: center;
+}

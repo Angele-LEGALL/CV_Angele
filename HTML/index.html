@@ -8,6 +8,10 @@
     <!--Lien vers mes fichiers CSS!-->
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/style.css">
+    <!--Lien vers les polices-->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=open-sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet" />
+
     <title>Document</title>
 </head>
 <body>
@@ -19,31 +23,31 @@
                 <nav>
                     <ul class="menu">
                         <li class="menu__item">
-                            <a class="menu__link" href="">Expérience</a>
+                            <a class="menu__link" href="#">Expérience</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="">Formation</a>
+                            <a class="menu__link" href="#">Formation</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="">Contact</a>
+                            <a class="menu__link" href="#">Contact</a>
                         </li>
                     </ul>
                 </nav>
                 <ul class="socials">
                     <li class="socials__item">
-                        <a class="socials__links" href="">
+                        <a class="socials__links" href="https://www.linkedin.com/in/ang%C3%A8le-legall-28bb371a0/" target="_blank">
                             <img class="socials__icon" src="../Images/logo_linkedin.png" alt="LinkedIn">
                         </a>
                     </li>
                     <li class="socials__item">
-                        <a class="socials__links" href="">
+                        <a class="socials__links" href="https://twitter.com/Angele_Legall" target="_blank">
                             <img class="socials__icon" src="../Images/logo_twitter.png" alt="Twitter">
                         </a>
                     </li>
                 </ul>
             </div>
         </header>
-        <main>
+        <main class="container-main">
             <div class="left-container">
                 <section class="left-container__experience">
                     <h2 class="experience__title">Mon expérience professionnelle</h2>
@@ -54,16 +58,23 @@
                             </li>
                             <li class="experience__item">
                                 <h3 class="expericence__subtitle">2019 à 2021 Service de la maintenance industrielle terrestre à Versailles (78)</h3>
+                                <p class="experience__entitled"> 
                                     Traitant au bureau conduite des contrats et des partenariats (TSEF2)
+                                </p>
                                 <ul class="experience__text">
                                     <li>Conduire les contrats (CCTP)</li>
                                     <li>Suivre les plans d'actions</li>
                                     <li>Assurer l'interface entre les différents acteurs étatiques et privés</li>
-                                    </ul>
+                                </ul>
                             </li>
                             <li class="experience__item">
                                 <h3 class="expericence__subtitle">2018 à 2019 Centre d'identification des matériels de la défense à Bruz (35)</h3>
-                                    Codificateur traitant des échanges internationaux (ATPMD2) puis Technicien pilotage fonctionnel de la codification (TSEF3)
+                                <p class="experience__entitled">
+                                    Codificateur traitant des échanges internationaux (ATPMD2)
+                                </p>
+                                <p class="experience__entitled">    
+                                    Technicien pilotage fonctionnel de la codification (TSEF3)
+                                </p>    
                                 <ul class="experience__text">
                                     <li>Piloter les demandes d'assistance et de faits techniques</li>
                                     <li>Analyser les demandes et les traiter</li>
@@ -73,7 +84,9 @@
                             </li>
                             <li class="experience__item">
                                 <h3 class="expericence__subtitle">2016 à 2018 Base Aérienne 116 à Luxeuil (70)</h3>
+                                <p class="experience__entitled">
                                     Comptable technique (ATPMD2)
+                                </p>    
                                 <ul class="experience__text">
                                     <li>Faire l'inventaire des matériels techniques</li>
                                     <li>Archiver les documents comptable</li>
@@ -81,14 +94,18 @@
                             </li>
                             <li class="experience__item">
                                 <h3 class="expericence__subtitle">2014 à 2016 Centre expert des ressources humaines et de la solde à Nancy (54)</h3>
+                                <p class="experience__entitled">
                                     Traitant solde (Agent sous contrat)
+                                </p>
                                 <ul class="experience__text">
                                     <li>Analyser les droits de l'administré</li>
                                 </ul>
                             </li>
                             <li class="experience__item">
                                 <h3 class="expericence__subtitle">2011 à 2013 Stock-options à Issenheim (68)</h3>
+                                <p class="experience__entitled">
                                     Assistante d'exploitation logistique (CDI)
+                                </p>
                                 <ul class="experience__text">
                                     <li>Gérer un entrepôt</li>
                                     <li>Préparer les commandes</li>
@@ -97,7 +114,9 @@
                             </li>
                             <li class="experience__item">
                                 <h3 class="expericence__subtitle">2010 à 2011 GEFCO à Mulhouse (68)</h3>
+                                <p class="experience__entitled">
                                     Agent administratif au service affrètement (CDD)
+                                </p>
                                 <ul class="experience__text">
                                     <li>Vendre le fret</li>
                                     <li>Faire les devis client</li>
@@ -106,7 +125,9 @@
                             </li>
                             <li class="experience__item">
                                 <h3 class="expericence__subtitle">2004 à 2009 4ème Régiment du matériel à Nîmes (30)</h3>
+                                <p class="experience__entitled">
                                     Chef d'équipe magasin (Maréchal des Logis)
+                                </p>
                                 <ul class="experience__text">
                                     <li>Réceptionner et stocker les marchandises</li>
                                     <li>Re compléter et faire l'inventaire des stocks</li>
@@ -123,10 +144,30 @@
                     <article class="training">
                         <h2 class="training__title">Mes Formations</h2>
                         <ul class="training__item">
-                            <li class="training-item__text">2022 à 2023 : Formation développeur web en téléprésentiel (niveau 5 si obtention du titre pro) </li>
-                            <li class="training-item__text">2011 : BTS Transport-Logistique par correspondance (niveau 5)</li>
-                            <li class="training-item__text">2005 : CT1 Gestion des matériels et approvisionnement (niveau 4)</li>
-                            <li class="training-item__text">2003 : BAC STT Comptabilité-Gestion (niveau 4)</li>
+                            <li class="training-item__text">
+                                <h3 class="training__date">2022 à 2023</h3>
+                                <p class="training-date__text">
+                                    Formation développeur web en téléprésentiel (niveau 5 si obtention du titre pro)
+                                </p>
+                            </li>
+                            <li class="training-item__text">
+                                <h3 class="training__date">2011</h3>
+                                <p class="training-date__text">
+                                    BTS Transport-Logistique par correspondance (niveau 5)
+                                </p>
+                            </li>
+                            <li class="training-item__text">
+                                <h3 class="training__date">2005</h3>
+                                <p class="training-date__text">
+                                    CT1 Gestion des matériels et approvisionnement (niveau 4)
+                                </p>
+                            </li>
+                            <li class="training-item__text">
+                                <h3 class="training__date">2003</h3>
+                                <p class="training-date__text">
+                                    BAC STT Comptabilité-Gestion (niveau 4)
+                                </p>
+                            </li>
                         </ul>
                     </article>                    
                     <article class="skill">
