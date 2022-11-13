@@ -1,5 +1,5 @@
 body{
-    background-color: #f3e3cd;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -7,6 +7,20 @@ body{
 .main-header{
     border: 0.1rem solid black;
     padding: 1rem 1rem;
+}
+
+.header__image{
+    transform: rotate(45deg);
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75);
+    width: 9rem;
+    height: 9rem;
+    margin: 2rem auto 0;
+}
+.main-header__image{
+    transform: rotate(-45deg);
+    margin: -1rem 0 0 -2rem;
+    padding-left: 2rem;    
 }
 
 .main-header__title{
