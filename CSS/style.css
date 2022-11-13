@@ -1,11 +1,12 @@
 body{
-    background-color: white;
+    background-color: #fbf5e3;
     font-family: 'Open Sans', sans-serif;
+    width: 1024px;
+    margin: auto;
 }
 
 /*Début Header et Nav*/
 .main-header{
-    border: 0.1rem solid black;
     padding: 1rem 1rem;
 }
 
@@ -95,8 +96,21 @@ body{
 
 .experience__entitled, .training-date__text{
     font-style: italic;
-    text-indent: 12%;
+    text-indent: 13%;
     margin-top: 0.5rem;
+}
+
+
+.left-container__experience, .training, .skill, .driver-license{
+    border: 0.5rem solid #f5e7bc;
+    border-radius: 0.5rem;
+    margin: 1.5rem auto;
+    padding: 1rem 1rem;
+}
+
+.training-date__text{
+    text-align: left;
+    margin: 1rem auto;
 }
 
 .experience__text{
@@ -114,4 +128,14 @@ body{
 
 .training__date{
     text-align: center;
+}
+
+
+/*Début Footer*/
+
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
